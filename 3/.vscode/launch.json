@@ -1,0 +1,35 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) 启动",
+            "type": "cppdbg",
+            "request": "launch",
+             "program": "${workspaceFolder}/build/my_cmake_run",//代表了要调试可执行文件的绝对路径
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",//cwd相当于进入build文件夹
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+             "preLaunchTask": "Build",//这个Build表示执行tasks文件中的Build任务，而Build文件中要执行的任务是cmake ..和make（具体见tasks文件中lable为Build）
+            "miDebuggerPath": "/usr/bin/gdb"//gdb调试的绝对路径
+        }
+
+    ]
+}

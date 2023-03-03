@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/main_cmake.dir/main.cpp.o CMakeFiles/main_cmake.dir/src/swap.cpp.o  -o main_cmake 

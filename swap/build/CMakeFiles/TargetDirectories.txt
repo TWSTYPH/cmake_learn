@@ -1,3 +1,0 @@
-/home/yph/code/swap/build/CMakeFiles/rebuild_cache.dir
-/home/yph/code/swap/build/CMakeFiles/main_cmake.dir
-/home/yph/code/swap/build/CMakeFiles/edit_cache.dir

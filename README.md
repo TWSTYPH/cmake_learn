@@ -2,6 +2,8 @@
 
 # Linux(Ubuntu) 系统下C++的编译调试
 
+具体学习参考https://www.bilibili.com/video/BV1fy4y1b7TC/?spm_id_from=333.788.recommend_more_video.0
+
 ## 一、开发环境搭建
 
 ### 1.1、编译器 调试器 安装

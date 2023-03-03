@@ -1,3 +1,0 @@
-/home/yph/code/7/build/CMakeFiles/rebuild_cache.dir
-/home/yph/code/7/build/CMakeFiles/my_cmake_run.dir
-/home/yph/code/7/build/CMakeFiles/edit_cache.dir
