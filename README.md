@@ -80,3 +80,4 @@ g++ -C test.s -o test.o
 g++ test.o -o test
 ```
 
+https://api.huacloud.xyz/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS&url=https%3A%2F%2Fapi.flowercloud.xyz%2Fosubscribe.php%3Fsid%3D30653%26token%3DnzfmfOVWYTrj%26sip002%3D1
