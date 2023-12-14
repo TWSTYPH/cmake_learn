@@ -25,3 +25,5 @@ bool Soldier::fire(){
 //     delete this->ptr_gun;
 //     this->ptr_gun = nullptr;
 // }
+
+// 2023.1214 test
